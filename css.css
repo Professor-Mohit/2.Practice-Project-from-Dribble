@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: work sans;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#nav{
+    height: 10%;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #3c97bf; */
+    position: relative;
+}
+#nav-part1{
+    display: flex;
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+#nav-part2{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    /* justify-content: center; */
+    gap: 20px;
+
+}
+#nav-part2 h4{
+    font-weight: 400;
+    font-size: 15px;
+}
+#nav-part2 h4 span{
+    color: rgb(60, 58, 58);
+}
+#opticalElement{
+    display: flex;
+    gap: 60px;
+    padding-left: 40px;
+}
+#opticalElement h4{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#content{
+    height:87%;
+    /* background-color: aquamarine; */
+}
+#text-content{
+    height: 50%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x:auto ;
+    align-items: center;
+    justify-content: center;
+
+}
+#text-content::-webkit-scrollbar{
+    display: none;
+}
+.element{
+    flex-shrink: 0;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    /* background-color: beige; */
+    justify-content: center;
+    align-items: center;
+    
+}
+.element h1{
+    font-size: 90px;
+    font-weight: 800;
+}
+#image-content{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    /* background-color: lightblue; */
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    overflow-x: auto;
+}
+#image-content img {
+}
